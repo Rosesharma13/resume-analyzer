@@ -45,13 +45,13 @@ streamlit run app.py
 resume-analyzer/
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
-├── .env               # API key (not pushed to GitHub)
-├── .gitignore         # Ignores .env file
-└── README.md          # Project documentation
+├── .env.example        # API key 
+├── .gitignore          # Ignores .env file
+└── README.md           # Project documentation
 ```
 
 ## Screenshots
-*(Add screenshots of your running app here)*
+
 
 ---
 Built by [Rose Sharma](https://linkedin.com/in/rose-sharma13) · AI/ML Engineer
