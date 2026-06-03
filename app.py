@@ -44,7 +44,7 @@ def extract_text_from_pdf(uploaded_file):
 
 def analyze_resume(resume_text, job_role):
     """Send resume to Gemini for analysis"""
-    model = genai.GenerativeModel("gemini-1.5-flash")
+   model = genai.GenerativeModel("gemini-2.0-flash")
 
     prompt = f"""
 You are an expert AI career advisor and technical recruiter with 10+ years of experience 
@@ -90,7 +90,7 @@ Be direct, honest, and specific. Do not give generic advice.
 
 def analyze_job_match(resume_text, job_description):
     """Match resume against a specific job description"""
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash")
 
     prompt = f"""
 You are an expert technical recruiter. Compare the resume against the job description below.
